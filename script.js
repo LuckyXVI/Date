@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Te veo en el drinks and fly el viernes a las 8:00 P.M.!";
+  question.innerHTML = "Te veo en el Cafe Jazzito a las 8:00 P.M.!";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
