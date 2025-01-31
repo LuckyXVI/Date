@@ -17,7 +17,7 @@ yesBtn.addEventListener("click", () => {
       const numeroTelefono = "523841041238"; // Reemplaza con el número de WhatsApp
       const mensaje = encodeURIComponent("¡Nos vemos en el Café Jazzito a las 8:00 P.M.! 😊☕");
       window.location.href = `https://wa.me/${numeroTelefono}?text=${mensaje}`;
-  }, 10000); // 10000 milisegundos = 10 segundos
+  }, 3000); // 10000 milisegundos = 10 segundos
 });
 
 noBtn.addEventListener("mouseover", () => {
